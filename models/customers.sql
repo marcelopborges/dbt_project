@@ -1,4 +1,4 @@
---Função de janela
+--customer model
 with markup as (
     select * , -- seleciona todos os campos da tabela
     first_value(customer_id) -- na nova coluna que será criada onde conter duplicação será colocado o primeiro registro encontrado, este foi o critério definido.
