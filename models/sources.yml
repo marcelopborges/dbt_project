@@ -7,7 +7,7 @@ sources:
     tables:
       - name: categories
       - name: products
-      - name: suplliers
+      - name: suppliers
       - name: employees
       - name: order_details
       - name: customers
